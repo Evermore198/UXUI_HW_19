@@ -3,9 +3,10 @@
   <head>
     <title>Sam's Portfolio (HW 19)</title>
        <link href="css/style.css" type="text/css" rel="stylesheet">
-       <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-  </head>
+       </head>
   <body>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="js/index.js"></script>
     <header>
       <img src="images/logo.png">
       <ul>
@@ -15,15 +16,25 @@
           </ul>
     </header>
     <section class="heroImg">
-      <div id="gradient2"></div>
-<div id="gradient"></div>
-      <div class="casestudy1">
+        <div class="casestudy1">
         <img src="images/placeholder_picture.png">
         <h1>Your Name</h1>
         <p>lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut ero labore et dolore magna aliqua.</p>
         <button>Download Resume</button>
       </div>
     </section>
+    <!--Creates the popup body-->
+<div class="popup-overlay">
+  <!--Creates the popup content-->
+   <div class="popup-content">
+      <h2>Pop-Up</h2>
+      <p> This is an example pop-up that you can make using jQuery.</p>
+     <!--popup's close button-->
+      <button class="close">Close</button>    
+  </div>
+  </div>  
+  <h2>jQuery Pop-Up Example</h2>
+  <button class="open">Open</button>
     <h1 class="heading">My UX Skills</h1>
     <section class="flexContainer">
        <div>
